@@ -2,8 +2,8 @@ FROM python:3.9-alpine3.13
 LABEL maintainer="billthan"
 
 ENV PYTHONUNBUFFERED 1
-ENV HTTP_PROXY="http://204.40.130.129:3128/"
-ENV HTTPS_PROXY="http://204.40.130.129:3128/"
+#ENV HTTP_PROXY="http://204.40.130.129:3128/"
+#ENV HTTPS_PROXY="http://204.40.130.129:3128/"
 
 
 COPY ./requirements.dev.txt /tmp/requirements.dev.txt
