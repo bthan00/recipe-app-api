@@ -3,8 +3,8 @@ LABEL maintainer="billthan"
 
 ENV PYTHONUNBUFFERED 1
 
-ENV http_proxy http://204.40.130.129:3128
-ENV https_proxy http://204.40.130.129:3128
+#ENV http_proxy http://204.40.130.129:3128
+#ENV https_proxy http://204.40.130.129:3128
 
 COPY ./requirements.dev.txt /tmp/requirements.dev.txt
 COPY ./requirements.txt /tmp/requirements.txt
