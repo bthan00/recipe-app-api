@@ -1,6 +1,9 @@
 FROM python:3.9-alpine3.13
 LABEL maintainer="londonappdeveloper.com"
 
+ENV HTTP_PROXY="http://204.40.130.129:3128/"
+ENV HTTPS_PROXY="http://204.40.130.129:3128/"
+
 ENV PYTHONUNBUFFERED 1
 
 COPY ./requirements.txt /tmp/requirements.txt
